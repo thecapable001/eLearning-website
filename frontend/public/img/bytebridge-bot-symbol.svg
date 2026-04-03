@@ -1,0 +1,23 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bbGlow" x1="18" y1="18" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.52" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="bbPanel" x1="30" y1="28" x2="97" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#14253D"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="58" fill="url(#bbGlow)"/>
+  <circle cx="64" cy="64" r="49" fill="url(#bbPanel)"/>
+  <rect x="31" y="36" width="66" height="56" rx="20" fill="white" fill-opacity="0.08"/>
+  <rect x="39" y="44" width="50" height="40" rx="14" fill="white"/>
+  <circle cx="55" cy="59" r="5.5" fill="#1D4ED8"/>
+  <circle cx="73" cy="59" r="5.5" fill="#0F766E"/>
+  <path d="M49 73C52.8 77.6 58 80 64 80C70 80 75.2 77.6 79 73" stroke="url(#bbGlow)" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M64 27V38" stroke="white" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="64" cy="22" r="6" fill="#FACC15"/>
+  <path d="M28 88C34.4 80.8 42.8 77.2 53.2 77.2H74.8C85.2 77.2 93.6 80.8 100 88" stroke="white" stroke-opacity="0.16" stroke-width="7" stroke-linecap="round"/>
+</svg>
